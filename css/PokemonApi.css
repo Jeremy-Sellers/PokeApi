@@ -1,0 +1,61 @@
+body {
+  background-color: #ff0000;
+}
+
+.pokedex {
+  background-color: #a00000;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.scrollable-menu {
+  height: 50vh;
+  overflow-y: auto;
+  background-color: #ffffff;
+  color: black;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.card {
+  background-color: #f8d030;
+  color: black;
+}
+
+.card-img-top {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  object-fit: contain;
+}
+
+.team-member {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.team-member img {
+  height: 100px;
+  width: 100px;
+}
+
+.team-member:hover .team-member-name {
+  visibility: visible;
+}
+
+.team-member-name {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
